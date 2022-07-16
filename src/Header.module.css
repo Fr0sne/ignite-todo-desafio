@@ -1,0 +1,10 @@
+.mainHeader {
+    background-color: var(--gray-700);
+    height: 12.5rem;
+    display: flex;
+}
+
+.mainHeader img{
+    margin: auto;
+
+}

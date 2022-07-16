@@ -1,0 +1,75 @@
+.todoBody{
+    width: 50%;
+    margin: auto;
+}
+
+.todoListHeader{
+    margin: 5.6875rem auto 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoTasksInfo{
+    display: flex;
+    gap: .5rem;
+    text-align: center;
+}
+
+.todoList{
+    margin: 4rem;
+    justify-content: center;
+    color: var(--gray-300);
+    line-height: 140%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.todoTasksInfoCount {
+    padding: .125rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-flow: column;
+    font-weight: bold;
+    font-size: .75rem;
+    background-color: var(--gray-400);
+    /* width: 1.5625rem; */
+    border-radius: 99rem;
+    /* height: 1.25rem; */
+    margin: auto;
+
+}
+.todoCreatedTasks {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+
+.todoFinishedTasks {
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+
+
+.todoDivisor {
+    height: .5px;
+    margin-top: 1.5625rem;
+    background-color: var(--gray-400);
+}
+
+@media (max-width: 1280px) {
+    .todoBody {
+        width: 90%;
+        
+    }
+    .todoList {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}

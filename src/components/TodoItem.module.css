@@ -1,0 +1,87 @@
+[type=checkbox]{
+    all: unset;
+}
+
+.todoItem{
+    height: 4.5rem;
+    border-radius: 8px;
+    width: 100%;
+    background-color: var(--gray-500);
+    box-sizing: initial;
+    border: solid var(--gray-400) 1px;
+    text-align: start;
+    display: flex;
+    margin-bottom: .75rem;
+    /* outline: solid  red; */
+}
+
+.todoOptions {
+    width: 3.25rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.todoDescription{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1rem;
+    width: 90%;
+}
+
+.todoCheckButton{
+    width: 1.15rem !important;
+    height: 1.15rem !important;
+    border: solid 2px var(--blue) ;
+    border-radius: 999rem !important;
+    margin: auto !important;
+    transition: all .3s !important;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+
+}
+.todoCheckButton:checked::after{
+    content: '\2714';
+
+}
+
+
+.todoCheckButton:focus{
+    outline: none !important;
+}
+
+.todoCheckButton:hover{
+    background-color: #4ea7de2e;
+}
+
+.todoCheckButton:checked{
+    background-color: var(--purple);
+    border: solid 2px var(--purple) !important;
+    color: white;
+}
+
+.todoDeleteButton {
+    background: transparent;
+    border: none;
+    color: var(--gray-300);
+    line-height: 0;
+    cursor: pointer;
+    width: auto;
+    border-radius: 8px;
+
+}
+
+.todoDeleteButton:hover {
+    background-color: var(--gray-400);
+    color: var(--danger)
+}
+.todoTrashIcon {
+    margin: 5px;
+}

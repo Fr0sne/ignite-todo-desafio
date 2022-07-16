@@ -1,0 +1,78 @@
+.todoBody {
+    height: 100%;
+}
+.todoAddArea{
+    width: 50%;
+    margin: -1.75rem auto;
+    height: 3.375rem;
+    box-sizing: initial;
+    display: flex;
+    gap: .5rem;
+
+
+}
+
+.todoList {
+}
+.todoInput {
+    width: 90%;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-sizing: initial;
+    background-color: var(--gray-500);
+    color: var(--gray-100);
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.todoAdd{
+    height: 100%;
+    width: 5.625rem;
+    font-size: 14px;
+    border-radius: 8px;
+    border-style: none;
+    outline: none;
+    font-weight: 500;
+    color: var(--gray-100);
+    background-color: var(--blue-dark);
+    align-items: center;
+    display: flex;
+    transition: all .3s;
+}
+
+.todoAdd:hover {
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+
+.todoButtonContent{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    /* margin: 0 auto; */
+}
+
+
+
+
+.todoAddIcon{
+}
+
+input:focus {
+    outline: .2rem solid var(--purple-dark);
+}
+
+@media (max-width: 720px) {
+    .todoAddArea {
+
+        width: 70%;
+    }
+    .todoAddArea {
+        width: 90%;
+    }
+
+}
